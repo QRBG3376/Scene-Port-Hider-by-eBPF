@@ -1,5 +1,6 @@
 # Scene Port Hider by eBPF
 
+注意：这是一个复制的项目，原链接是：https://github.com/Andrea-lyz/Scene-Port-Hider-by-eBPF
 这是一个 KernelSU 模块，用来隐藏 Scene 常用 TCP 端口 `8788`、`8765`、`14731` 和 `14754` 的端口探测。
 
 模块使用 eBPF 在内核侧做端口行为隐藏，当前覆盖：
